@@ -34,7 +34,9 @@ function changetoCircle(){
 function mouseDragged(){
     if (shape === "rectangle"){
         rect(mouseX, mouseY, 50, 50)
+        fill(random(0, 255), random(0, 255), random(0, 255))
     } else if (shape === "circle") {
         circle(mouseX, mouseY, 50)
+        fill(random(0, 255), random(0, 255), random(0, 255))
     }
 }
